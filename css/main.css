@@ -1,7 +1,7 @@
 /* by Jamal Hassouni*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-* :not(.fa-graduation-cap, .fa-server) {
+* :not(.fa-graduation-cap, .fa-server, .fa-bars) {
   font-family: Rancho !important;
 }
 
