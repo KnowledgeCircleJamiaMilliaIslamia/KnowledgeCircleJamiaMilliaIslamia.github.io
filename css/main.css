@@ -179,7 +179,7 @@ td a i {
 }
 
 .logo {
-  width: 80px;
+  width: 50px;
   margin-right: 5px;
   border-radius: 50%;
 
@@ -191,4 +191,10 @@ td a i {
 }
 .media-body {
   color: white;
+}
+
+
+.media-body h1,
+  .media-body p{
+  display: inline-block;
 }
