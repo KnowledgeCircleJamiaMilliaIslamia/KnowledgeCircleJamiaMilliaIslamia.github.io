@@ -60,7 +60,7 @@ p { line-height: 1.9; }
 
 .nav-item.active .tm-nav-link,
 .nav-item:hover .tm-nav-link {
-    color: #9CC;
+    color: #34ec5e;
 }
 
 /* Page Background */
@@ -100,6 +100,7 @@ p { line-height: 1.9; }
     background-color: rgba(255,255,255,0.5);
     margin: 6px;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .tm-bg-control.active,
@@ -168,13 +169,17 @@ hr { border-top: 1px solid white; }
 
 .btn-primary {
     background-color: white;
-    color: black;
+    color: white;
+    font-weight: bold;
     border: 0;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #22ff07, #17a2b8);
+    transition: all .3s ease-out;
 }
 
+
 .btn-primary:hover {
-    background-color: #9CC;
-    color: black;
+    transform: scale(1.1);
 }
 
 .tm-site-footer {
