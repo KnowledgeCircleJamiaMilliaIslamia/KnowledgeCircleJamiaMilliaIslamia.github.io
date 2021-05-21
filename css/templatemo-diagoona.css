@@ -195,7 +195,8 @@ hr { border-top: 1px solid white; }
 
 .tm-text-link:hover,
 .tm-text-link:focus {
-    color: #9CC;
+    color: #34ec5e;
+    
 }
 
 /* Service */ 
@@ -224,7 +225,7 @@ textarea {
     color: white;
     background-color: transparent;    
     box-shadow: none;
-    border-color: #9CC;
+    color: #34ec5e;
     outline: none;
 }
 
@@ -269,7 +270,7 @@ textarea {
 
     .nav-item.active .tm-nav-link,
     .nav-item:hover .tm-nav-link {
-        color: #9CC;
+        color: #34ec5e;
     }
 
     .tm-content { margin-top: 20px; }
