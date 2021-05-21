@@ -156,7 +156,8 @@ z-index: -1;}
     box-shadow: 0 0 1px rgba(255,255,255,.8);
 }
 
-.tm-content-title { font-size: 1.5rem; }
+.tm-content-title { font-size: 1.5rem; 
+font-weight: bold;}
 hr { border-top: 1px solid white; }
 
 .btn {
@@ -172,7 +173,7 @@ hr { border-top: 1px solid white; }
 .btn-primary {
     background-color: white;
     color: white;
-    font-weight: bold;
+    font-size: 28px;
     border: 0;
     border-radius: 10px;
     background: linear-gradient(-45deg, #22ff07, #17a2b8);
