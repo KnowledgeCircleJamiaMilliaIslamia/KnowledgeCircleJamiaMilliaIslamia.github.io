@@ -1,10 +1,6 @@
 /* by Jamal Hassouni*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-* :not(.fa-graduation-cap, .fa-server, .fa-bars, .fa-download) {
-  font-family: Rancho !important;
-}
-
 .card {
   position: relative;
   max-width: 600px;
@@ -52,7 +48,7 @@
 
 .col-sm-4:hover .card,
 .col-sm-4:hover .card .title .fa {
-     background: linear-gradient(-45deg, #22ff07, #17a2b8);
+  
 }
 
 
@@ -202,6 +198,7 @@ td a i {
 .media-body h1,
   .media-body p{
   display: inline-block;
+  text-shadow: 0 0 15px black;
 }
 
 .tm-slogon {
