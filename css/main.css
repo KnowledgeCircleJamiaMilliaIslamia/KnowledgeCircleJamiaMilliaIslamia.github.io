@@ -5,6 +5,12 @@
   font-family: Rancho !important;
 }
 
+body .tm-container { /*added this so that index.html screen not become scrollable after increasing the font size*/
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
 .card {
   position: relative;
   max-width: 600px;
@@ -149,6 +155,15 @@
 .card a:hover {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.tm-row .tm-col-right .tm-content .tm-content-title { /*Incresed the font-size of Knowledge circle jamia heading which is in h2*/
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.tm-row .tm-col-right .tm-content .mb-5 { /*increased the font-size of the paragraph below the h2 headline*/
+	font-size: 20px;
 }
 
 section {
